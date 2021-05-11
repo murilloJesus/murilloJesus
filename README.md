@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @murilloJesus
 - 👀 I’m interested in PHP and Javascript Technologies
-- 🌱 I’m currently learning Laravel and VueJS
+- :purple_heart: Laravel and  VueJS Technologies
+- 🌱 I’m currently learning Docker and FullCycle Technologies
 - 📫 How to reach me on LinkedIn: https://www.linkedin.com/in/murillo-jesus/
