@@ -7,13 +7,13 @@
 <html>
 
 <head>
-    <title>Murillo Jesus </title>
     <meta charset="utf-8" />
+    {!! SEO::generate() !!}
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/public/assets/css/main.css" />
     <link rel="stylesheet" href="/public/assets/css/app.css" />
     <noscript>
-        <link rel="stylesheet" href="/public/assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="/public/assets/css/noscript.css" /></noscript>
     <script src="https://kit.fontawesome.com/00a566ab92.js" crossorigin="anonymous"></script>
 </head>
 
@@ -202,6 +202,8 @@
         <!-- Footer -->
         <footer id="contato">
             <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/murillo-jesus/" class="icon brands fa-linkedin"><span class="label">Linked-In</span></a></li>
+                <li><a href="https://www.instagram.com/prof.dev.murillo/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
                 <li><a href="mailto:murillos.jesus@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
             <ul class="copyright">

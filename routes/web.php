@@ -1,7 +1,7 @@
 <?php
 
+use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->middleware(App\Http\Middleware\SEO::class);
 
 Auth::routes();
 
