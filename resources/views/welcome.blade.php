@@ -34,7 +34,7 @@
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#atuacao">Áreas de Atuação</a></li>
                                 <li><a href="#contrate">Contrate</a></li>
-                                <li><a href="#cta">Projetos de Sucesso</a></li>
+                                <li><a href="#projetos">Projetos de Sucesso</a></li>
                                 <li><a href="#contato">Contato</a></li>
                             </ul>
                         </div>
