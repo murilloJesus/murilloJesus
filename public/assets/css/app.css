@@ -1,0 +1,35 @@
+.icon .fa-brands {
+    transform: rotate(45deg);
+    font-size: 2em;
+    position: relative;
+}
+
+.fa-vuejs {
+    top: 12px;
+    right: 3px;
+}
+
+.fa-js-square{
+    top: 8px;
+    right: 0px;
+}
+
+.fa-php{
+    top: 7px;
+    right: 0px;
+}
+
+.fa-laravel {
+    top: 13px;
+    right: -2px;
+}
+
+.fa-docker {
+    top: 10px;
+    right: -5px;
+}
+
+.back-image-01{
+    background-color: #505393;
+    padding: 75px 0px;
+}
