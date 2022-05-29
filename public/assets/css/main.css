@@ -3440,7 +3440,7 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	#home {
 		-moz-transition: background-color 0.2s ease;
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
@@ -3455,7 +3455,7 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
-		#header h1 {
+		#home h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
@@ -3467,7 +3467,7 @@ input, select, textarea {
 			top: 0;
 		}
 
-			#header h1 a {
+			#home h1 a {
 				border: 0;
 				display: block;
 				height: inherit;
@@ -3476,13 +3476,13 @@ input, select, textarea {
 
 				@media screen and (max-width: 736px) {
 
-					#header h1 a {
+					#home h1 a {
 						font-size: 0.8em;
 					}
 
 				}
 
-		#header nav {
+		#home nav {
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
@@ -3490,19 +3490,19 @@ input, select, textarea {
 			top: 0;
 		}
 
-			#header nav > ul {
+			#home nav > ul {
 				list-style: none;
 				margin: 0;
 				padding: 0;
 				white-space: nowrap;
 			}
 
-				#header nav > ul > li {
+				#home nav > ul > li {
 					display: inline-block;
 					padding: 0;
 				}
 
-					#header nav > ul > li > a {
+					#home nav > ul > li > a {
 						border: 0;
 						color: #fff;
 						display: block;
@@ -3512,12 +3512,12 @@ input, select, textarea {
 						text-transform: uppercase;
 					}
 
-						#header nav > ul > li > a.menuToggle {
+						#home nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
 						}
 
-							#header nav > ul > li > a.menuToggle:after {
+							#home nav > ul > li > a.menuToggle:after {
 								background-image: url("images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
@@ -3530,11 +3530,11 @@ input, select, textarea {
 
 							@media screen and (max-width: 736px) {
 
-								#header nav > ul > li > a.menuToggle {
+								#home nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
 								}
 
-									#header nav > ul > li > a.menuToggle span {
+									#home nav > ul > li > a.menuToggle span {
 										display: none;
 									}
 
@@ -3542,21 +3542,21 @@ input, select, textarea {
 
 						@media screen and (max-width: 736px) {
 
-							#header nav > ul > li > a {
+							#home nav > ul > li > a {
 								padding: 0 0 0 1.5em;
 							}
 
 						}
 
-					#header nav > ul > li:first-child {
+					#home nav > ul > li:first-child {
 						margin-left: 0;
 					}
 
-		#header.alt {
+		#home.alt {
 			background: transparent;
 		}
 
-			#header.alt h1 {
+			#home.alt h1 {
 				pointer-events: none;
 				opacity: 0;
 			}
@@ -3752,7 +3752,7 @@ input, select, textarea {
 
 /* CTA */
 
-	#cta .inner {
+	#projetos .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3760,7 +3760,7 @@ input, select, textarea {
 		max-width: 45em;
 	}
 
-		#cta .inner header {
+		#projetos .inner header {
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
@@ -3769,11 +3769,11 @@ input, select, textarea {
 			width: 70%;
 		}
 
-			#cta .inner header p {
+			#projetos .inner header p {
 				color: inherit;
 			}
 
-		#cta .inner .actions {
+		#projetos .inner .actions {
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -3783,17 +3783,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#cta .inner {
+			#projetos .inner {
 				display: block;
 				text-align: center;
 			}
 
-				#cta .inner header {
+				#projetos .inner header {
 					padding-right: 0;
 					width: 100%;
 				}
 
-				#cta .inner .actions {
+				#projetos .inner .actions {
 					margin-left: auto;
 					margin-right: auto;
 					max-width: 20em;
@@ -3804,7 +3804,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#cta .inner .actions {
+			#projetos .inner .actions {
 				max-width: none;
 			}
 
@@ -3884,25 +3884,25 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
+	#contato {
 		padding: 6em 0 4em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
 
-		#footer .icons {
+		#contato .icons {
 			font-size: 1.25em;
 		}
 
-			#footer .icons a {
+			#contato .icons a {
 				color: rgba(255, 255, 255, 0.5);
 			}
 
-				#footer .icons a:hover {
+				#contato .icons a:hover {
 					color: #fff;
 				}
 
-		#footer .copyright {
+		#contato .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
@@ -3911,7 +3911,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-			#footer .copyright li {
+			#contato .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
 				line-height: 1em;
@@ -3919,23 +3919,23 @@ input, select, textarea {
 				padding-left: 1em;
 			}
 
-				#footer .copyright li:first-child {
+				#contato .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .copyright li a {
+				#contato .copyright li a {
 					color: inherit;
 				}
 
-					#footer .copyright li a:hover {
+					#contato .copyright li a:hover {
 						color: #fff;
 					}
 
 				@media screen and (max-width: 480px) {
 
-					#footer .copyright li {
+					#contato .copyright li {
 						border: 0;
 						display: block;
 						line-height: 1.65em;
@@ -3947,7 +3947,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#footer {
+			#contato {
 				padding: 4em 3em 2em 3em ;
 			}
 
@@ -3955,7 +3955,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#footer {
+			#contato {
 				padding: 3em 2em 1em 2em ;
 			}
 
@@ -3975,7 +3975,7 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #footer {
+	body.landing #contato {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
@@ -3994,6 +3994,6 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	body.is-mobile.landing #footer {
+	body.is-mobile.landing #contato {
 		background-color: #1d242a;
 	}

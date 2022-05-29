@@ -23,7 +23,7 @@
     <div id="page-wrapper">
 
         <!-- Header -->
-        <header id="header" class="alt">
+        <header id="home" class="alt">
             <h1><a href="index.html">Murillo Jesus</a></h1>
             <nav id="nav">
                 <ul>
@@ -32,10 +32,10 @@
                         <div id="menu">
                             <ul>
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#one">Áreas de Atuação</a></li>
-                                <li><a href="#three">Contrate</a></li>
+                                <li><a href="#atuacao">Áreas de Atuação</a></li>
+                                <li><a href="#contrate">Contrate</a></li>
                                 <li><a href="#cta">Projetos de Sucesso</a></li>
-                                <li><a href="#footer">Contato</a></li>
+                                <li><a href="#contato">Contato</a></li>
                             </ul>
                         </div>
                     </li>
@@ -58,7 +58,7 @@
         </section>
 
         <!-- One -->
-        <section id="one" class="wrapper style1 special">
+        <section id="atuacao" class="wrapper style1 special">
             <div class="inner">
                 <header class="major">
                     <h2>DESENVOLVEDOR FULLCYCLE<br />
@@ -111,14 +111,14 @@
         </section>
 
         <!-- Three -->
-        <section id="three" class="wrapper style3 special">
+        <section id="contrate" class="wrapper style3 special">
             <div class="inner">
                 <header class="major">
                     <h2>processo de cotação</h2>
                     <p>Seu meu trabalho despertou interesse e gostaria de saber mais<br />
-                        aqui vai um resumo do metodo de contrato,<br>
+                        aqui vai um resumo do metodo de contrato.<br>
                         (Aquela comunicação sincera e simples, para desde o empresario moderno até o emergente
-                        compreender).
+                        compreender)
                     </p>
                 </header>
                 <ul class="features">
@@ -156,7 +156,7 @@
         </section>
 
         <!-- CTA -->
-        <section id="cta" class="wrapper style4">
+        <section id="projetos" class="wrapper style4">
             <div class="inner">
                 <header>
                     <h2>Projetos de sucesso</h2>
@@ -171,7 +171,7 @@
                 <div class="content">
                     <h2>CREF4/SP<br />
                         Orgão Governamental</h2>
-                    <p>Responsável por gerenciar as credenciais na profissão de Educação Fisica no estado de São Paulo.
+                    <p>Responsável por coordenar os profissionais de Educação Fisica do estado de São Paulo.
                     </p>
                     <p><a href="https://www.crefsp.gov.br">www.crefsp.gov.br</a></p>
                 </div>
@@ -200,7 +200,7 @@
 
 
         <!-- Footer -->
-        <footer id="footer">
+        <footer id="contato">
             <ul class="icons">
                 <li><a href="mailto:murillos.jesus@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
